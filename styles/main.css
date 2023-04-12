@@ -1,6 +1,46 @@
-<style>
-text-align: center;
-  .smaller-image {
-    width: 100px;
-  }
-</style>
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://img.freepik.com/free-photo/laptop-notebook-writing-from-view-wooden-background_482257-34843.jpg?w=2000&t=st=1681265227~exp=1681265827~hmac=ea3b7712aedf0d1d047635e5e6537462ee8937382a85b34082a92a6fe8aed9b2");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  background-color: rgb(98, 98, 98);
+  font-size: 70px;
+  color: bisque;
+
+  
+}
+
+.centertext {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  top: 10%;
+  position: relative;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 30px;
+}
+.txtbg {
+  background-color: rgba(98, 98, 98, 0.601);
+  color: white;
+}
+.button1 {
+background-color: rgba(245, 245, 245, 0.992);
+font-size: 25px;
+border-color: black;
+border-width: 5px;
+
+}
