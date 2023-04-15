@@ -1,7 +1,10 @@
 body, html {
   height: 100%;
 }
-
+.cc {
+  text-align: center;
+  
+}
 .bg {
   background-image: url("https://img.freepik.com/free-photo/laptop-notebook-writing-from-view-wooden-background_482257-34843.jpg?w=2000&t=st=1681265227~exp=1681265827~hmac=ea3b7712aedf0d1d047635e5e6537462ee8937382a85b34082a92a6fe8aed9b2");
 
