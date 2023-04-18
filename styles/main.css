@@ -3,6 +3,7 @@ body, html {
 }
 .cc {
   text-align: center;
+
   
 }
 .bg {
@@ -22,16 +23,22 @@ h1 {
 
   
 }
+.flex {  
+  display: flex;
+  justify-content: center;
+
+}
 
 .centertext {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 35px;
-  text-align: center;
   top: 10%;
+  text-align: center;
   position: relative;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 100px;
+  margin-right: 100px;
   padding: 30px;
+  width: 900px;
 }
 .txtbg {
   background-color: rgba(98, 98, 98, 0.601);
@@ -49,26 +56,24 @@ border-width: 5px;
   color: red;
   text-emphasis-style: bold;
 }
-
+img {
+  width: 55%;
+}
 /* media query? */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.column {
-  flex: 25%;
-  padding: 20px;
-}
-
-@media screen and (max-width: 992px) {
-  .column {
-    flex: 50%;
-  }
+@media screen and (max-width: 768px) {
+  .centertext {
+  width: 700px;
+  margin-left: 20px;
+  margin-right: 20px;
+  } 
 }
 
 @media screen and (max-width: 600px) {
-  .row {
-    flex-direction: column;
+ 
+  .centertext {
+    width: 600px;
+    font-size: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }
